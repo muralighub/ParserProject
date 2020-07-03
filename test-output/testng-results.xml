@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="36" passed="36" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser has has been initialized<br>]]>
+    </line>
+    <line>
+      <![CDATA[Site has been opened in the Browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02-July-2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02-July-20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02-Jul-2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02-Jul-20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02/July/2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02/July/20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02/Jul/2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02/Jul/20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02 July 2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02 July 20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02 Jul 2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02 Jul 20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser has has been initialized<br>]]>
+    </line>
+    <line>
+      <![CDATA[Site has been opened in the Browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02-07-2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02-07-20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02/07/2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02/07/20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02 07 2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 02 07 20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser has has been initialized<br>]]>
+    </line>
+    <line>
+      <![CDATA[Site has been opened in the Browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field July-02-2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field July-02-20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field Jul-02-2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field Jul-02-20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field July/02/2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field July/02/20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field Jul/02/2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field Jul/02/20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field July 02 2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field July 02 20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field Jul 02 2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field Jul 02 20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser has has been initialized<br>]]>
+    </line>
+    <line>
+      <![CDATA[Site has been opened in the Browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 07-02-2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 07-02-20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 07/02/2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 07/02/20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 07 02 2020<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Date has been entered in the text field 07 02 20<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-07-03T04:43:14Z" name="Suite" finished-at="2020-07-03T04:45:05Z" duration-ms="111331">
+    <groups>
+    </groups>
+    <test started-at="2020-07-03T04:43:14Z" name="Test-ddmmmmyy" finished-at="2020-07-03T04:43:51Z" duration-ms="37245">
+      <class name="test.DateParser">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:14Z" name="Login" finished-at="2020-07-03T10:13:24Z" duration-ms="9724" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser has has been initialized<br>]]>
+            </line>
+            <line>
+              <![CDATA[Site has been opened in the Browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:24Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:27Z" duration-ms="3713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02-July-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02-July-2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:27Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:29Z" duration-ms="1669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02-July-20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02-July-20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:29Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:32Z" duration-ms="3288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02-Jul-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02-Jul-2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:32Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:35Z" duration-ms="2534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02-Jul-20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02-Jul-20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:35Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:37Z" duration-ms="1860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02/July/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02/July/2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:37Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:39Z" duration-ms="1833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02/July/20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02/July/20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:39Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:40Z" duration-ms="1560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02/Jul/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02/Jul/2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:40Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:42Z" duration-ms="1712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02/Jul/20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02/Jul/20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:42Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:45Z" duration-ms="3425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02 July 2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02 July 2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:45Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:47Z" duration-ms="1685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02 July 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02 July 20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:47Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:49Z" duration-ms="1938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02 Jul 2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02 Jul 2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:49Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:13:50Z" duration-ms="1449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02 Jul 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02 Jul 20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DateParser@23348b5d]" started-at="2020-07-03T10:13:50Z" name="tearDown" finished-at="2020-07-03T10:13:51Z" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.DateParser -->
+    </test> <!-- Test-ddmmmmyy -->
+    <test started-at="2020-07-03T04:43:51Z" name="Test-ddmmyyyy" finished-at="2020-07-03T04:44:14Z" duration-ms="22507">
+      <class name="test.DateParserTwo">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.DateParserTwo@49e5f737]" started-at="2020-07-03T10:13:51Z" name="Login" finished-at="2020-07-03T10:14:03Z" duration-ms="11999" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser has has been initialized<br>]]>
+            </line>
+            <line>
+              <![CDATA[Site has been opened in the Browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserTwo@49e5f737]" started-at="2020-07-03T10:14:03Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:05Z" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02-07-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02-07-2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserTwo@49e5f737]" started-at="2020-07-03T10:14:05Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:06Z" duration-ms="1530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02-07-20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02-07-20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserTwo@49e5f737]" started-at="2020-07-03T10:14:06Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:09Z" duration-ms="2934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02/07/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02/07/2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserTwo@49e5f737]" started-at="2020-07-03T10:14:09Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:10Z" duration-ms="1453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02/07/20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02/07/20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserTwo@49e5f737]" started-at="2020-07-03T10:14:10Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:12Z" duration-ms="1303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02 07 2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02 07 2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserTwo@49e5f737]" started-at="2020-07-03T10:14:12Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:13Z" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02 07 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 02 07 20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DateParserTwo@49e5f737]" started-at="2020-07-03T10:14:13Z" name="tearDown" finished-at="2020-07-03T10:14:14Z" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.DateParserTwo -->
+    </test> <!-- Test-ddmmyyyy -->
+    <test started-at="2020-07-03T04:44:14Z" name="Test-mmmmddyyyy" finished-at="2020-07-03T04:44:48Z" duration-ms="33845">
+      <class name="test.DateParserThree">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:14Z" name="Login" finished-at="2020-07-03T10:14:23Z" duration-ms="8870" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser has has been initialized<br>]]>
+            </line>
+            <line>
+              <![CDATA[Site has been opened in the Browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:23Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:24Z" duration-ms="1622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[July-02-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field July-02-2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:24Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:26Z" duration-ms="1680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[July-02-20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field July-02-20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:26Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:30Z" duration-ms="4330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jul-02-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field Jul-02-2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:30Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:33Z" duration-ms="2411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jul-02-20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field Jul-02-20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:33Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:34Z" duration-ms="1301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[July/02/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field July/02/2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:34Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:37Z" duration-ms="2911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[July/02/20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field July/02/20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:37Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:38Z" duration-ms="1601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jul/02/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field Jul/02/2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:38Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:40Z" duration-ms="1433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jul/02/20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field Jul/02/20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:40Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:42Z" duration-ms="2326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[July 02 2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field July 02 2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:42Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:44Z" duration-ms="1742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[July 02 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field July 02 20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:44Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:46Z" duration-ms="1552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jul 02 2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field Jul 02 2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:46Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:47Z" duration-ms="1284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jul 02 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field Jul 02 20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DateParserThree@3af9c5b7]" started-at="2020-07-03T10:14:47Z" name="tearDown" finished-at="2020-07-03T10:14:48Z" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.DateParserThree -->
+    </test> <!-- Test-mmmmddyyyy -->
+    <test started-at="2020-07-03T04:44:48Z" name="Test-mmddyyyy" finished-at="2020-07-03T04:45:05Z" duration-ms="17671">
+      <class name="test.DateParserFour">
+        <test-method is-config="true" signature="Login()[pri:0, instance:test.DateParserFour@77f80c04]" started-at="2020-07-03T10:14:48Z" name="Login" finished-at="2020-07-03T10:14:56Z" duration-ms="8457" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser has has been initialized<br>]]>
+            </line>
+            <line>
+              <![CDATA[Site has been opened in the Browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserFour@77f80c04]" started-at="2020-07-03T10:14:56Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:58Z" duration-ms="1557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[07-02-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 07-02-2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserFour@77f80c04]" started-at="2020-07-03T10:14:58Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:14:59Z" duration-ms="1357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[07-02-20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 07-02-20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserFour@77f80c04]" started-at="2020-07-03T10:14:59Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:15:00Z" duration-ms="1221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[07/02/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 07/02/2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserFour@77f80c04]" started-at="2020-07-03T10:15:00Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:15:02Z" duration-ms="1568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[07/02/20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 07/02/20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserFour@77f80c04]" started-at="2020-07-03T10:15:02Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:15:03Z" duration-ms="1381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[07 02 2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 07 02 2020<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method signature="dateParser(java.lang.String)[pri:0, instance:test.DateParserFour@77f80c04]" started-at="2020-07-03T10:15:03Z" name="dateParser" data-provider="getDateFormat1" finished-at="2020-07-03T10:15:04Z" duration-ms="1340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[07 02 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date has been entered in the text field 07 02 20<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DateParserFour@77f80c04]" started-at="2020-07-03T10:15:05Z" name="tearDown" finished-at="2020-07-03T10:15:05Z" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.DateParserFour -->
+    </test> <!-- Test-mmddyyyy -->
+  </suite> <!-- Suite -->
+</testng-results>

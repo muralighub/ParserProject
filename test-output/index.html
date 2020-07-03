@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG new reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Selenium\Selenium Trials\Trials\DateParserProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02/July/20)">dateParser(02/July/20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02-July-20)">dateParser(02-July-20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02-Jul-20)">dateParser(02-Jul-20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02/July/2020)">dateParser(02/July/2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02/Jul/20)">dateParser(02/Jul/20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02 July 2020)">dateParser(02 July 2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02-Jul-2020)">dateParser(02-Jul-2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02 Jul 20)">dateParser(02 Jul 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02/Jul/2020)">dateParser(02/Jul/2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02 Jul 2020)">dateParser(02 Jul 2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02 July 20)">dateParser(02 July 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParser" class="method navigator-link" hash-for-method="dateParser(02-July-2020)">dateParser(02-July-2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserTwo" class="method navigator-link" hash-for-method="dateParser(02-07-20)">dateParser(02-07-20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserTwo" class="method navigator-link" hash-for-method="dateParser(02-07-2020)">dateParser(02-07-2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserTwo" class="method navigator-link" hash-for-method="dateParser(02/07/20)">dateParser(02/07/20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserTwo" class="method navigator-link" hash-for-method="dateParser(02/07/2020)">dateParser(02/07/2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserTwo" class="method navigator-link" hash-for-method="dateParser(02 07 20)">dateParser(02 07 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserTwo" class="method navigator-link" hash-for-method="dateParser(02 07 2020)">dateParser(02 07 2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(July/02/2020)">dateParser(July/02/2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(July-02-20)">dateParser(July-02-20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(July/02/20)">dateParser(July/02/20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(July 02 2020)">dateParser(July 02 2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(Jul 02 2020)">dateParser(Jul 02 2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(Jul-02-20)">dateParser(Jul-02-20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(Jul-02-2020)">dateParser(Jul-02-2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(July-02-2020)">dateParser(July-02-2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(Jul 02 20)">dateParser(Jul 02 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(Jul/02/20)">dateParser(Jul/02/20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(July 02 20)">dateParser(July 02 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserThree" class="method navigator-link" hash-for-method="dateParser(Jul/02/2020)">dateParser(Jul/02/2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserFour" class="method navigator-link" hash-for-method="dateParser(07 02 2020)">dateParser(07 02 2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserFour" class="method navigator-link" hash-for-method="dateParser(07 02 20)">dateParser(07 02 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserFour" class="method navigator-link" hash-for-method="dateParser(07/02/20)">dateParser(07/02/20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserFour" class="method navigator-link" hash-for-method="dateParser(07-02-2020)">dateParser(07-02-2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserFour" class="method navigator-link" hash-for-method="dateParser(07/02/2020)">dateParser(07/02/2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.DateParserFour" class="method navigator-link" hash-for-method="dateParser(07-02-20)">dateParser(07-02-20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.DateParserTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02-07-20)">
+                  </a> <!-- dateParser(02-07-20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02-07-20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02-07-2020)">
+                  </a> <!-- dateParser(02-07-2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02-07-2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02/07/20)">
+                  </a> <!-- dateParser(02/07/20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02/07/20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02/07/2020)">
+                  </a> <!-- dateParser(02/07/2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02/07/2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02 07 20)">
+                  </a> <!-- dateParser(02 07 20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02 07 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02 07 2020)">
+                  </a> <!-- dateParser(02 07 2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02 07 2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.DateParserThree</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(July/02/2020)">
+                  </a> <!-- dateParser(July/02/2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(July/02/2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(July-02-20)">
+                  </a> <!-- dateParser(July-02-20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(July-02-20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(July/02/20)">
+                  </a> <!-- dateParser(July/02/20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(July/02/20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(July 02 2020)">
+                  </a> <!-- dateParser(July 02 2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(July 02 2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(Jul 02 2020)">
+                  </a> <!-- dateParser(Jul 02 2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(Jul 02 2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(Jul-02-20)">
+                  </a> <!-- dateParser(Jul-02-20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(Jul-02-20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(Jul-02-2020)">
+                  </a> <!-- dateParser(Jul-02-2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(Jul-02-2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(July-02-2020)">
+                  </a> <!-- dateParser(July-02-2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(July-02-2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(Jul 02 20)">
+                  </a> <!-- dateParser(Jul 02 20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(Jul 02 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(Jul/02/20)">
+                  </a> <!-- dateParser(Jul/02/20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(Jul/02/20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(July 02 20)">
+                  </a> <!-- dateParser(July 02 20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(July 02 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(Jul/02/2020)">
+                  </a> <!-- dateParser(Jul/02/2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(Jul/02/2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.DateParserFour</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(07 02 2020)">
+                  </a> <!-- dateParser(07 02 2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(07 02 2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(07 02 20)">
+                  </a> <!-- dateParser(07 02 20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(07 02 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(07/02/20)">
+                  </a> <!-- dateParser(07/02/20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(07/02/20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(07-02-2020)">
+                  </a> <!-- dateParser(07-02-2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(07-02-2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(07/02/2020)">
+                  </a> <!-- dateParser(07/02/2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(07/02/2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(07-02-20)">
+                  </a> <!-- dateParser(07-02-20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(07-02-20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.DateParser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02/July/20)">
+                  </a> <!-- dateParser(02/July/20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02/July/20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02-July-20)">
+                  </a> <!-- dateParser(02-July-20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02-July-20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02-Jul-20)">
+                  </a> <!-- dateParser(02-Jul-20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02-Jul-20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02/July/2020)">
+                  </a> <!-- dateParser(02/July/2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02/July/2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02/Jul/20)">
+                  </a> <!-- dateParser(02/Jul/20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02/Jul/20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02 July 2020)">
+                  </a> <!-- dateParser(02 July 2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02 July 2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02-Jul-2020)">
+                  </a> <!-- dateParser(02-Jul-2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02-Jul-2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02 Jul 20)">
+                  </a> <!-- dateParser(02 Jul 20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02 Jul 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02/Jul/2020)">
+                  </a> <!-- dateParser(02/Jul/2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02/Jul/2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02 Jul 2020)">
+                  </a> <!-- dateParser(02 Jul 2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02 Jul 2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02 July 20)">
+                  </a> <!-- dateParser(02 July 20) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02 July 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateParser(02-July-2020)">
+                  </a> <!-- dateParser(02-July-2020) -->
+                  <span class="method-name">dateParser</span>
+                  <span class="parameters">(02-July-2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium\Selenium Trials\Trials\DateParserProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test-ddmmmmyy&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.DateParser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test-ddmmmmyy --&gt;
+  &lt;test name=&quot;Test-ddmmyyyy&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.DateParserTwo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test-ddmmyyyy --&gt;
+  &lt;test name=&quot;Test-mmmmddyyyy&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.DateParserThree&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test-mmmmddyyyy --&gt;
+  &lt;test name=&quot;Test-mmddyyyy&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.DateParserFour&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test-mmddyyyy --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test-ddmmmmyy (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test-ddmmyyyy (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test-mmmmddyyyy (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test-mmddyyyy (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dateParser')
+data.setCell(0, 2, 'test.DateParserThree')
+data.setCell(0, 3, 4330);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dateParser')
+data.setCell(1, 2, 'test.DateParser')
+data.setCell(1, 3, 3713);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dateParser')
+data.setCell(2, 2, 'test.DateParser')
+data.setCell(2, 3, 3425);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'dateParser')
+data.setCell(3, 2, 'test.DateParser')
+data.setCell(3, 3, 3288);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'dateParser')
+data.setCell(4, 2, 'test.DateParserTwo')
+data.setCell(4, 3, 2934);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dateParser')
+data.setCell(5, 2, 'test.DateParserThree')
+data.setCell(5, 3, 2911);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'dateParser')
+data.setCell(6, 2, 'test.DateParser')
+data.setCell(6, 3, 2534);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'dateParser')
+data.setCell(7, 2, 'test.DateParserThree')
+data.setCell(7, 3, 2411);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'dateParser')
+data.setCell(8, 2, 'test.DateParserThree')
+data.setCell(8, 3, 2326);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'dateParser')
+data.setCell(9, 2, 'test.DateParser')
+data.setCell(9, 3, 1938);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'dateParser')
+data.setCell(10, 2, 'test.DateParser')
+data.setCell(10, 3, 1860);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'dateParser')
+data.setCell(11, 2, 'test.DateParser')
+data.setCell(11, 3, 1833);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'dateParser')
+data.setCell(12, 2, 'test.DateParserThree')
+data.setCell(12, 3, 1742);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'dateParser')
+data.setCell(13, 2, 'test.DateParser')
+data.setCell(13, 3, 1712);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'dateParser')
+data.setCell(14, 2, 'test.DateParser')
+data.setCell(14, 3, 1685);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'dateParser')
+data.setCell(15, 2, 'test.DateParserThree')
+data.setCell(15, 3, 1680);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'dateParser')
+data.setCell(16, 2, 'test.DateParser')
+data.setCell(16, 3, 1669);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'dateParser')
+data.setCell(17, 2, 'test.DateParserThree')
+data.setCell(17, 3, 1622);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'dateParser')
+data.setCell(18, 2, 'test.DateParserThree')
+data.setCell(18, 3, 1601);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'dateParser')
+data.setCell(19, 2, 'test.DateParserFour')
+data.setCell(19, 3, 1568);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'dateParser')
+data.setCell(20, 2, 'test.DateParser')
+data.setCell(20, 3, 1560);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'dateParser')
+data.setCell(21, 2, 'test.DateParserFour')
+data.setCell(21, 3, 1557);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'dateParser')
+data.setCell(22, 2, 'test.DateParserThree')
+data.setCell(22, 3, 1552);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'dateParser')
+data.setCell(23, 2, 'test.DateParserTwo')
+data.setCell(23, 3, 1530);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'dateParser')
+data.setCell(24, 2, 'test.DateParserTwo')
+data.setCell(24, 3, 1453);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'dateParser')
+data.setCell(25, 2, 'test.DateParser')
+data.setCell(25, 3, 1449);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'dateParser')
+data.setCell(26, 2, 'test.DateParserThree')
+data.setCell(26, 3, 1433);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'dateParser')
+data.setCell(27, 2, 'test.DateParserFour')
+data.setCell(27, 3, 1381);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'dateParser')
+data.setCell(28, 2, 'test.DateParserFour')
+data.setCell(28, 3, 1357);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'dateParser')
+data.setCell(29, 2, 'test.DateParserFour')
+data.setCell(29, 3, 1340);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'dateParser')
+data.setCell(30, 2, 'test.DateParserTwo')
+data.setCell(30, 3, 1303);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'dateParser')
+data.setCell(31, 2, 'test.DateParserThree')
+data.setCell(31, 3, 1301);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'dateParser')
+data.setCell(32, 2, 'test.DateParserThree')
+data.setCell(32, 3, 1284);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'dateParser')
+data.setCell(33, 2, 'test.DateParserTwo')
+data.setCell(33, 3, 1277);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'dateParser')
+data.setCell(34, 2, 'test.DateParserTwo')
+data.setCell(34, 3, 1237);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'dateParser')
+data.setCell(35, 2, 'test.DateParserFour')
+data.setCell(35, 3, 1221);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02/July/20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02/July/20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02-July-20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02-July-20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02-Jul-20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02-Jul-20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02/July/2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02/July/2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02/Jul/20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02/Jul/20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02 July 2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02 July 2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02-Jul-2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02-Jul-2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02 Jul 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02 Jul 20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02/Jul/2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02/Jul/2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02 Jul 2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02 Jul 2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02 July 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02 July 20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02-July-2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02-July-2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02-07-20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02-07-20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02-07-2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02-07-2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02/07/20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02/07/20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02/07/2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02/07/2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02 07 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02 07 20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(02 07 2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 02 07 2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Fri Feb 07 2020 00:00:00 GMT+0000 have not been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(July/02/2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field July/02/2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(July-02-20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field July-02-20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(July/02/20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field July/02/20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(July 02 2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field July 02 2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(Jul 02 2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field Jul 02 2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(Jul-02-20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field Jul-02-20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(Jul-02-2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field Jul-02-2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(July-02-2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field July-02-2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(Jul 02 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field Jul 02 20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(Jul/02/20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field Jul/02/20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(July 02 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field July 02 20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(Jul/02/2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field Jul/02/2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(07 02 2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 07 02 2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(07 02 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 07 02 20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(07/02/20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 07/02/20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(07-02-2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 07-02-2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(07/02/2020)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 07/02/2020<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dateParser(07-02-20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Date has been entered in the text field 07-02-20<br></span>
+                <span class="reporter-method-output"> Formatted Input date Thu Jul 02 2020 00:00:00 IST and output dates Thu Jul 02 2020 00:00:00 GMT+0000 have been verified.<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DateParser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02-July-2020)</span>
+                <span class="method-start">9724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02-July-20)</span>
+                <span class="method-start">13438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02-Jul-2020)</span>
+                <span class="method-start">15108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02-Jul-20)</span>
+                <span class="method-start">18397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02/July/2020)</span>
+                <span class="method-start">20938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02/July/20)</span>
+                <span class="method-start">22799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02/Jul/2020)</span>
+                <span class="method-start">24637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02/Jul/20)</span>
+                <span class="method-start">26200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02 July 2020)</span>
+                <span class="method-start">27913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02 July 20)</span>
+                <span class="method-start">31343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02 Jul 2020)</span>
+                <span class="method-start">33029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02 Jul 20)</span>
+                <span class="method-start">34972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36422 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DateParserTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Login</span>
+                <span class="method-start">37292 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02-07-2020)</span>
+                <span class="method-start">49291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02-07-20)</span>
+                <span class="method-start">50571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02/07/2020)</span>
+                <span class="method-start">52105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02/07/20)</span>
+                <span class="method-start">55040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02 07 2020)</span>
+                <span class="method-start">56496 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(02 07 20)</span>
+                <span class="method-start">57804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59046 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DateParserThree</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Login</span>
+                <span class="method-start">59799 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dateParser(July-02-2020)</span>
+                <span class="method-start">68669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(July-02-20)</span>
+                <span class="method-start">70299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(Jul-02-2020)</span>
+                <span class="method-start">71982 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(Jul-02-20)</span>
+                <span class="method-start">76317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(July/02/2020)</span>
+                <span class="method-start">78729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(July/02/20)</span>
+                <span class="method-start">80033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(Jul/02/2020)</span>
+                <span class="method-start">82948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(Jul/02/20)</span>
+                <span class="method-start">84549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(July 02 2020)</span>
+                <span class="method-start">85985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(July 02 20)</span>
+                <span class="method-start">88313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(Jul 02 2020)</span>
+                <span class="method-start">90058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(Jul 02 20)</span>
+                <span class="method-start">91616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92904 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DateParserFour</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Login</span>
+                <span class="method-start">93660 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dateParser(07-02-2020)</span>
+                <span class="method-start">102117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(07-02-20)</span>
+                <span class="method-start">103679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(07/02/2020)</span>
+                <span class="method-start">105041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(07/02/20)</span>
+                <span class="method-start">106265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(07 02 2020)</span>
+                <span class="method-start">107835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateParser(07 02 20)</span>
+                <span class="method-start">109220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110563 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

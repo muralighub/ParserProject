@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Test-ddmmmmyy">
+		<classes>
+			<class name="test.DateParser" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test-ddmmyyyy">
+		<classes>
+			<class name="test.DateParserTwo" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test-mmmmddyyyy">
+		<classes>
+			<class name="test.DateParserThree" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test-mmddyyyy">
+		<classes>
+			<class name="test.DateParserFour" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
