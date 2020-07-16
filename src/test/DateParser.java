@@ -1,20 +1,24 @@
-package test;
-
-/* This program enters the date in the format dd-mmmm-yyyy , dd-mmmm-yy, dd-mmm-yyyy using seperators -./,space. 
-
+/*                ***********************************
+  Check the input date field accepts different date formats along with different separators -, / and space.
+  
    Then verifies that the input date and output date are same using Date formatter Utility  */
 
+package test;
+
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
@@ -25,50 +29,73 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import utility.FormatUtility;
+import utility.Driverinit;
+import objects.ParserObjects;
+import utility.DataExcel;
 
-public class DateParser extends FormatUtility {
+public class DateParser extends Driverinit {
 	WebDriver driver;
-	// String resultformat;
+
+	ParserObjects dateObj;
+	String date;
+	String result;
 
 	@BeforeTest
-	public void Login() {
-		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir") + "\\src\\resources\\chromedriver.exe");
-		ChromeOptions options = new ChromeOptions();
-		options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
-		driver = new ChromeDriver(options);
-		Reporter.log("Browser has has been initialized");
-		driver.get("https://vast-dawn-73245.herokuapp.com");
-		Reporter.log("Site has been opened in the Browser");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	public void initialize() throws IOException {
 
+		driver = browserDriver();
+		Reporter.log("Browser has been initialized");
+		driver.get(prop.getProperty("url"));
+		Reporter.log("URL has been entered in the Browser");
 	}
 
-	@Test(dataProvider = "getDateFormat1")
-	public void dateParser(String date) {
-		driver.findElement(By.cssSelector("input.form-control")).sendKeys(date);
-		Reporter.log("Date has been entered in the text field " + date);
-		driver.findElement(By.cssSelector("input.btn.btn-default")).click();
-		String resultDate = driver.findElement(By.xpath("//div[@class='col-md-6']/div")).getText();
+	@Test(dataProvider = "getDateSet")
+	public void dateParser(String dataset) throws InterruptedException, IOException {
 
-		FormatUtility f = new FormatUtility();
-		String result = f.dateFormater(date);
-		System.out.println(result);
-		System.out.println(resultDate);
+		dateObj = PageFactory.initElements(driver, ParserObjects.class);
+		dateObj.clearDate();
 
-		if (resultDate.contains(result.substring(0, 15))) {
+		DataExcel getExcel = new DataExcel();
+		ArrayList<String> data = getExcel.getData(dataset);
 
-			System.out.println(
-					" Formatted Input date " + result + " and output dates " + resultDate + " have been verified.");
-			Reporter.log(
-					" Formatted Input date " + result + " and output dates " + resultDate + " have been verified.");
-		} else {
+		for (int i = 1; i <= data.size() - 1; i++) {
 
-			System.out.println(
-					" Formatted Input date " + result + " and output dates " + resultDate + " have not been verified.");
-			Reporter.log(
-					" Formatted Input date " + result + " and output dates " + resultDate + " have not been verified.");
+			date = data.get(i);
+			dateObj.inputDate(date);
+
+			Reporter.log("Date entered in the text field " + date);
+
+			dateObj.submitbtn();
+			Thread.sleep(1000);
+			String resultDate = dateObj.getResult();
+
+			FormatUtility f = new FormatUtility();
+
+			if (dataset.equalsIgnoreCase("Test1")) {
+				result = f.dateFormater(date);
+			} else if (dataset.equalsIgnoreCase("Test2")) {
+				result = f.dateFormaterOne(date);
+			} else if (dataset.equalsIgnoreCase("Test3")) {
+				result = f.dateFormaterTwo(date);
+			} else if (dataset.equalsIgnoreCase("Test4")) {
+				result = f.dateFormaterThree(date);
+			}
+
+			if (resultDate.contains(result.substring(0, 15))) {
+
+				System.out.println(" Formatted Input date: " + result.substring(0, 15) + " and Output date: " + resultDate.substring(0, 15)
+						+ " have been verified.");
+				Reporter.log(" Formatted Input date: " + result.substring(0, 15) + " and Output date: " + resultDate.substring(0, 15)
+						+ " have been verified.");
+				//Assert.assertEquals(result.substring(0, 15), resultDate.substring(0, 15));
+			} else {
+
+				System.out.println(" Formatted Input date: " + result.substring(0, 15) + " and Output date: " + resultDate
+						+ " have not been verified.");
+				Reporter.log(" Formatted Input date: " + result.substring(0, 15) + " and Output date: " + resultDate
+						+ " have not been verified.");
+			}
+
 		}
 
 	}
@@ -76,37 +103,18 @@ public class DateParser extends FormatUtility {
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
-
 	}
 
 	@DataProvider
-	public Object[][] getDateFormat1() {
+	public Object[][] getDateSet() {
 
-		Object[][] getDate = new Object[12][1];
+		Object[][] getSet = new Object[4][1];
+		getSet[0][0] = "Test1";
+		getSet[1][0] = "Test2";
+		getSet[2][0] = "Test3";
+		getSet[3][0] = "Test4";
 
-		// using separator "-" and date format dd-mmmm-yyyy , dd-mmmm-yy,
-		// dd-mmm-yyyy,dd-mmm-yy
-		getDate[0][0] = "02-July-2020";
-		getDate[1][0] = "02-July-20";
-		getDate[2][0] = "02-Jul-2020";
-		getDate[3][0] = "02-Jul-20";
-
-		// using separator "/" and date format dd/mmmm/yyyy , dd/mmmm/yy,
-		// dd/mmm/yyyy,dd/mmm/yy
-		getDate[4][0] = "02/July/2020";
-		getDate[5][0] = "02/July/20";
-		getDate[6][0] = "02/Jul/2020";
-		getDate[7][0] = "02/Jul/20";
-
-		// using separator "space" and date format dd mmmm yyyy , dd mmmm yy,dd mmm
-		// yyyy, dd mmm yy
-		getDate[8][0] = "02 July 2020";
-		getDate[9][0] = "02 July 20";
-		getDate[10][0] = "02 Jul 2020";
-		getDate[11][0] = "02 Jul 20";
-
-		return getDate;
-
+		return getSet;
 	}
 
 }

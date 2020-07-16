@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="test.DateParserFour">
+      <class name="test.DateProj">
         <methods>
-          <include name="Login"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
           <include name="dateParser"/>
         </methods>
-      </class> <!-- test.DateParserFour -->
+      </class> <!-- test.DateProj -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

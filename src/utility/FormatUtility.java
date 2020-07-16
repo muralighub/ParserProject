@@ -1,3 +1,7 @@
+/*
+ * This utility formats the input date to output date format.
+ */
+
 package utility;
 
 import java.text.ParseException;

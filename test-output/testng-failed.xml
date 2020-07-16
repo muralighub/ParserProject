@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)" preserve-order="true">
+<suite name="Failed suite [Suite]">
+  <test name="DateValidate(failed)" preserve-order="true">
     <classes>
-      <class name="test.DateParserFour">
+      <class name="test.DateParser">
         <methods>
-          <include name="Login"/>
-          <include name="dateParser"/>
+          <include name="dateParser" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- test.DateParserFour -->
+      </class> <!-- test.DateParser -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- DateValidate(failed) -->
+</suite> <!-- Failed suite [Suite] -->
